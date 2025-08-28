@@ -49,7 +49,7 @@ const CaseSelect: React.FC = () => {
             {/* Front Side - Image */}
             <div className="absolute inset-0 w-full h-full backface-hidden rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/assets/social-detective-hero.png"
+                src="/assets/detective.png"
                 alt="المحقق الاجتماعي"
                 className="w-full h-full object-cover"
                 loading="eager"
