@@ -49,14 +49,15 @@ const CaseSelect: React.FC = () => {
             {/* Front Side - Image */}
             <div className="absolute inset-0 w-full h-full backface-hidden rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="/assets/ChatGPT Image Aug 28, 2025, 05_46_31 PM copy.png"
+                src="/assets/ChatGPT%20Image%20Aug%2028,%202025,%2005_46_31%20PM%20copy.png"
                 alt="المحقق الاجتماعي"
                 className="w-full h-full object-cover"
                 loading="eager"
                 onError={(e) => {
                   console.error('Image failed to load:', e);
-                  // Fallback to a placeholder or hide the image
-                  (e.target as HTMLImageElement).style.display = 'none';
+                  // Fallback to a placeholder
+                  const target = e.target as HTMLImageElement;
+                  target.src = 'https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=800';
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
