@@ -32,6 +32,11 @@ export default defineConfig({
   preview: {
     port: 3000,
     host: true
+  },
+  // Ensure proper handling of public assets
+  publicDir: 'public',
+  // Handle routing for SPA
+  define: {
+    'process.env.NODE_ENV': JSON.stringify(process.env.NODE_ENV || 'production')
   }
-}
-)
+});

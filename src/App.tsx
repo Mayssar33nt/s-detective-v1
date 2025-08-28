@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <GameProvider>
-      <Router>
+      <Router basename="/">
         <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-indigo-900">
           <Routes>
             <Route path="/" element={<CaseSelect />} />
