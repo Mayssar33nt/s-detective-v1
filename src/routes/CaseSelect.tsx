@@ -49,7 +49,7 @@ const CaseSelect: React.FC = () => {
             {/* Front Side - Image */}
             <div className="absolute inset-0 w-full h-full backface-hidden rounded-2xl overflow-hidden shadow-2xl">
               <img 
-                src="https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/assets/ChatGPT Image Aug 28, 2025, 05_46_31 PM copy.png"
                 alt="المحقق الاجتماعي"
                 className="w-full h-full object-cover"
                 loading="eager"
