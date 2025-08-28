@@ -6,7 +6,7 @@
   "homepage": "/",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "vite build",
     "build:production": "NODE_ENV=production vite build",
     "lint": "eslint .",
     "preview": "vite preview",
