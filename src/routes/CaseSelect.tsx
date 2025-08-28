@@ -57,7 +57,7 @@ const CaseSelect: React.FC = () => {
                   console.error('Image failed to load:', e);
                   // Fallback to a placeholder
                   const target = e.target as HTMLImageElement;
-                  target.src = 'https://drive.google.com/uc?export=view&id=1PRFnM6oIclVfR7AyOrooAWAxvDIL6d17';
+                  target.src = '/assets/placeholder.jpg';
                 }}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
